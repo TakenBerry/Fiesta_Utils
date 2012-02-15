@@ -1,0 +1,17 @@
+Select Alch Skill:
+18 | 34 [SKILLID, SHORT]
+
+Select Alch Skill Response:
+18 | 35 [SKILLID, SHORT] [01 0B, SHORT]
+
+Use skill book:
+12 | 21 [SLOTID, BYTE]
+
+Use Skill Book Response:
+12 | 22 [08 07 38 18] // Cannot use due to the level limit
+
+Move Item:
+12 | 11 [FROMSLOT, byte] [FROMINV, byte] [TOSLOT, byte] [TOINV, byte]
+
+Move Item response:
+12 | 12 [44 02] // [blocked moving (move to chest)]

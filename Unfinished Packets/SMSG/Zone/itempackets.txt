@@ -1,0 +1,58 @@
+12 2 //modify equip inventory
+
+03 //old slot
+24 //old state 
+0C //new inventory slot
+
+//equipinfo starting from equipid
+13 E0 00 00 00 00 00 00 00 FF FF 00 00 00 00 FF FF
+
+
+
+to reset a slot in equip:
+12 2
+03 //newslot
+24 //newstate
+0C //equipslot (toreset)
+FF FF
+
+----------------------------------------
+12 1 //modify item inventory
+
+0C //old slot
+20 //oldstate
+03 //newslot
+24 //newstate
+
+//equipinfo starting from equipID
+13 E0 00 00 00 00 00 00 00 FF FF 00 00 00 00 FF FF 00 00 00 00 FF FF 00 00 00 00 FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+to reset a slot in inventory
+12 1
+00 //newslot
+24 //newstate
+01 //slot to reset
+FF FF
+
+
+
+-------------------------------------------
+12 1 
+
+0C 
+20 
+1E 
+24 
+
+13 E0 00 00 00 00 00 00 00 FF FF 00 00 00 00 FF FF 00 00 00 00 FF FF 00 00 00 00 FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+-
+
+12 2 
+
+1E 
+24 
+0C 
+79 E0 00 00 00 00 00 00 00 FF FF 00 00 00 00 FF FF 00 00 00 00 FF FF 00 00 00 00 FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 02 03 00

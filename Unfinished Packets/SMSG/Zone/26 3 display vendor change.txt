@@ -1,0 +1,6 @@
+26 3 : Display vendor transform
+
+01 = SELL
+00 = BUY
+
+[ EA 1F ] 00 00 FF FF FF FF FF FF FF FF FF FF [ 01 ][73 74 6F 72 65 7A 7A 7A 7A 7A 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]

@@ -1,0 +1,15 @@
+This repository contains all sorts of utils that could help you with Fiesta Online development.
+All tools are written from scratch. 
+
+Projects:
+ClientLauncher - A custom client launcher that accepts IP & password hash for Zepheus servers
+FiestaMapRender - Renders SHBD files / updated with bit-rendering (works 100% now)
+FiestaShark - A Fiesta Online packet sniffer, requires winpcap (can be installed from here: http://www.winpcap.org/)
+ShineTableParser - A custom parser branch from the one that's implemented in the server, a standard DataReader implementation of the SHN format
+Unfinished Packets - Outdated packet analysis
+FiestaOpcodeConverter - Converts older opcodes (ushort) into the newer byte-byte format (& other way too)
+
+Credits:
+Diamondo25 - Optimising FiestaShark, developing Zepheus with me
+Astaelan - MapleShark base source
+Tamir Gal et.al: SharpPcap developers 

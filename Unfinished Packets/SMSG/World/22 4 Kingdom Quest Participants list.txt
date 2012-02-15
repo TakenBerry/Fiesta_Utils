@@ -1,0 +1,13 @@
+
+WriteInt(ID);
+WriteByte(State);
+/* States:
+	0x00: On Schedule
+	0x02: Recruiting
+	0x04: In Progress
+*/
+
+WriteShort(participants);
+foreach (player) {
+	WriteString(playernaam, 16);
+}
